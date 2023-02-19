@@ -10,7 +10,7 @@
   border-radius: 50px;
   padding-right: var(--dl-space-space-doubleunit);
   padding-bottom: var(--dl-space-space-halfunit);
-  background-color: var(--dl-color-primary-100);
+  background-color: #0b8704;
 }
 
 
@@ -239,16 +239,18 @@
 }
 .contact-main {
   width: 100%;
-  height: 227px;
+  height: 242px;
   display: flex;
-  align-items: center;
+  align-self: center;
+  align-items: stretch;
+  padding-top: 40px;
   padding-left: var(--dl-space-space-doubleunit);
   border-radius: var(--dl-radius-radius-radius4);
   padding-right: var(--dl-space-space-doubleunit);
   flex-direction: column;
-  padding-bottom: var(--dl-space-space-quadruple);
+  padding-bottom: 41px;
   background-size: auto;
-  justify-content: center;
+  justify-content: space-between;
   background-image: url("https://images.unsplash.com/photo-1607935911074-b2d6e8585776?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE3fHx0cmFuc3BhcmVudHxlbnwwfHx8fDE2NzY1MzM2NTc&ixlib=rb-4.0.3&w=1500");
   background-repeat: no-repeat;
   background-position: top left;

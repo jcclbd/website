@@ -237,24 +237,30 @@
   text-align: center;
 }
 .about-text12 {
+  font-size: 20px;
   max-width: 1400px;
   align-self: center;
   font-style: normal;
   margin-top: 32px;
-  text-align: left;
+  text-align: justify;
   font-weight: 500;
   line-height: 2;
+  padding-left: var(--dl-space-space-doubleunit);
   margin-bottom: 32px;
+  padding-right: var(--dl-space-space-doubleunit);
 }
 .about-text28 {
+  font-size: 20px;
   max-width: 1400px;
   align-self: center;
   font-style: normal;
   margin-top: 32px;
-  text-align: left;
+  text-align: justify;
   font-weight: 500;
   line-height: 2;
+  padding-left: var(--dl-space-space-doubleunit);
   margin-bottom: 32px;
+  padding-right: var(--dl-space-space-doubleunit);
 }
 .about-footer {
   color: var(--dl-color-gray-white);

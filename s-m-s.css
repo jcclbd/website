@@ -38,7 +38,7 @@
 }
 .place-card-image {
   width: 100%;
-  height: 300px;
+  height: 275px;
   object-fit: cover;
   border-top-left-radius: var(--dl-radius-radius-radius8);
   border-top-right-radius: var(--dl-radius-radius-radius8);
@@ -49,7 +49,6 @@
   padding: var(--dl-space-space-unit);
   align-items: center;
   flex-direction: column;
-  background-color: #D9D9D9;
   border-bottom-left-radius: var(--dl-radius-radius-radius8);
   border-bottom-right-radius: var(--dl-radius-radius-radius8);
 }
@@ -70,10 +69,6 @@
   align-self: stretch;
   background-color: rgba(255, 255, 255, 0.7);
 }
-.place-card-root-class-name1 {
-  align-self: stretch;
-  background-color: rgba(255, 255, 255, 0.7);
-}
 .place-card-root-class-name2 {
   align-self: stretch;
   background-color: rgba(177, 11, 72, 0.7);
@@ -87,6 +82,14 @@
   background-color: rgba(177, 11, 72, 0.7);
 }
 .place-card-root-class-name5 {
+  align-self: stretch;
+  background-color: rgba(63, 158, 1, 0.7);
+}
+.place-card-root-class-name1 {
+  align-self: stretch;
+  background-color: rgba(177, 11, 72, 0.7);
+}
+.place-card-root-class-name6 {
   align-self: stretch;
   background-color: rgba(63, 158, 1, 0.7);
 }
@@ -297,7 +300,7 @@
   justify-content: space-between;
 }
 .s-m-s-content-container {
-  height: 191px;
+  height: 246px;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -306,9 +309,6 @@
   color: rgb(255, 255, 255);
   padding-top: var(--dl-space-space-doubleunit);
   padding-bottom: var(--dl-space-space-doubleunit);
-}
-.s-m-s-component1 {
-  text-decoration: none;
 }
 .s-m-s-main {
   width: 100%;
@@ -352,14 +352,17 @@
 .s-m-s-link03 {
   display: contents;
 }
-.s-m-s-component2 {
+.s-m-s-component1 {
   text-decoration: none;
 }
 .s-m-s-link04 {
   display: contents;
 }
-.s-m-s-component3 {
+.s-m-s-component2 {
   text-decoration: none;
+}
+.s-m-s-text17 {
+  color: #c14545;
 }
 .s-m-s-footer {
   color: var(--dl-color-gray-white);
@@ -419,15 +422,15 @@
   margin-left: 100px;
   flex-direction: column;
 }
+.s-m-s-text20 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
 .s-m-s-link06 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
 .s-m-s-link07 {
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.s-m-s-link08 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
@@ -437,11 +440,11 @@
   margin-left: 100px;
   flex-direction: column;
 }
-.s-m-s-link09 {
+.s-m-s-link08 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.s-m-s-link10 {
+.s-m-s-link09 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
@@ -452,7 +455,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.s-m-s-text19 {
+.s-m-s-text21 {
   padding-bottom: var(--dl-space-space-halfunit);
 }
 .s-m-s-icons-container1 {
@@ -461,7 +464,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.s-m-s-link11 {
+.s-m-s-link10 {
   display: contents;
 }
 .s-m-s-icon08 {
@@ -469,7 +472,7 @@
   width: 24px;
   height: 24px;
 }
-.s-m-s-link12 {
+.s-m-s-link11 {
   display: contents;
 }
 .s-m-s-icon10 {
@@ -535,7 +538,7 @@
   .s-m-s-navlink5 {
     margin-bottom: var(--dl-space-space-halfunit);
   }
-  .s-m-s-text17 {
+  .s-m-s-text18 {
     margin-bottom: var(--dl-space-space-halfunit);
   }
   .s-m-s-navlink6 {
@@ -552,13 +555,13 @@
     align-items: flex-start;
     margin-left: 50px;
   }
+  .s-m-s-text20 {
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
   .s-m-s-link06 {
     margin-bottom: var(--dl-space-space-halfunit);
   }
   .s-m-s-link07 {
-    margin-bottom: var(--dl-space-space-halfunit);
-  }
-  .s-m-s-link08 {
     margin-bottom: var(--dl-space-space-halfunit);
   }
   .s-m-s-container3 {
@@ -566,10 +569,10 @@
     align-items: flex-start;
     margin-left: 50px;
   }
-  .s-m-s-link09 {
+  .s-m-s-link08 {
     margin-bottom: var(--dl-space-space-halfunit);
   }
-  .s-m-s-link10 {
+  .s-m-s-link09 {
     margin-bottom: var(--dl-space-space-halfunit);
   }
   .s-m-s-follow-container1 {

@@ -1,8 +1,8 @@
-.outline-button-container {
+.outline-button1-container {
   display: flex;
   position: relative;
 }
-.outline-button-button {
+.outline-button1-button {
   color: var(--dl-color-gray-black);
   padding-top: var(--dl-space-space-unit);
   border-color: var(--dl-color-primary-100);
@@ -14,76 +14,76 @@
   background-color: var(--dl-color-gray-white);
 }
 
-.place-card-container {
+.place-card1-container {
   width: 300px;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
-.place-card-image {
+.place-card1-image {
   width: 100%;
   height: 275px;
   object-fit: cover;
-  border-top-left-radius: var(--dl-radius-radius-radius8);
-  border-top-right-radius: var(--dl-radius-radius-radius8);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
 }
-.place-card-container1 {
+.place-card1-container1 {
   width: 100%;
   display: flex;
   padding: var(--dl-space-space-unit);
   align-items: center;
   flex-direction: column;
-  border-bottom-left-radius: var(--dl-radius-radius-radius8);
-  border-bottom-right-radius: var(--dl-radius-radius-radius8);
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
-.place-card-text {
+.place-card1-text {
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
   padding-bottom: var(--dl-space-space-halfunit);
 }
-.place-card-text1 {
+.place-card1-text1 {
   font-size: 12px;
   max-width: 250px;
   align-self: center;
   text-align: center;
   margin-bottom: var(--dl-space-space-doubleunit);
 }
-.place-card-root-class-name {
+.place-card1-root-class-name {
   align-self: stretch;
   background-color: rgba(255, 255, 255, 0.7);
 }
-.place-card-root-class-name2 {
+.place-card1-root-class-name2 {
   align-self: stretch;
   background-color: rgba(177, 11, 72, 0.7);
 }
-.place-card-root-class-name3 {
+.place-card1-root-class-name3 {
   align-self: stretch;
   background-color: rgba(63, 158, 1, 0.7);
 }
-.place-card-root-class-name4 {
+.place-card1-root-class-name4 {
   align-self: stretch;
   background-color: rgba(177, 11, 72, 0.7);
 }
-.place-card-root-class-name5 {
+.place-card1-root-class-name5 {
   align-self: stretch;
   background-color: rgba(63, 158, 1, 0.7);
 }
-.place-card-root-class-name1 {
+.place-card1-root-class-name1 {
   align-self: stretch;
   background-color: rgba(177, 11, 72, 0.7);
 }
-.place-card-root-class-name6 {
+.place-card1-root-class-name6 {
   align-self: stretch;
   background-color: rgba(63, 158, 1, 0.7);
 }
 @media(max-width: 767px) {
-  .place-card-container {
+  .place-card1-container {
     width: 200px;
   }
 }
 @media(max-width: 479px) {
-  .place-card-container {
+  .place-card1-container {
     width: 300px;
   }
 }
